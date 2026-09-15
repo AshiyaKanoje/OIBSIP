@@ -1,0 +1,53 @@
+* BMI Calculator
+
+## Description
+
+This is a simple Python program that calculates a user's Body
+Mass Index (BMI) using their weight and height.
+
+The program also displays the BMI category based on the calculated
+result.
+
+## Features
+
+- Takes weight in kilograms as input
+- Takes height in meters as input
+- Calculates BMI
+- Displays BMI rounded to 2 decimal places
+- Classifies the result as Underweight, Normal, Overweight or Obese
+- Rejects zero and negative values
+- Handles non-numeric input with an error message
+
+## BMI Formula
+
+BMI = Weight / (Height × Height)
+
+## BMI Categories
+
+- Below 18.5 - Underweight
+- 18.5 to 24.9 - Normal
+- 25 to 29.9 - Overweight
+- 30 and above - Obese
+
+##Technology Used
+
+- Python
+- input()
+- Basic arithmetic
+- if-elif-else
+- try-except
+
+##How to Run
+
+1. Install Python.
+2. Open `bmi_calculator.py` in VS Code.
+3. Run the program.
+4. Enter your weight in kg.
+5. Enter your height in meters.
+6. The BMI and category will be displayed.
+
+## Internship Task
+
+Oasis Infobyte Python Programming Internship
+
+Task 2 - BMI Calculator
