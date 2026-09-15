@@ -1,0 +1,49 @@
+# Chat Application
+
+## About the Project
+
+This is a simple two-user chat application made using Python.
+
+The application allows two users to connect to a server and exchange messages in real time. The server manages the connection between the users and forwards the messages from one user to the other.
+
+This project was created as part of my Python internship task.
+
+## Features
+
+- Two users can connect to the chat server.
+- Users can enter their names before joining the chat.
+- Users can send messages to each other.
+- Messages are displayed with the sender's name.
+- Messages include the time they were received.
+- Users can type `exit` to leave the chat.
+- The application uses threading so sending and receiving messages can happen at the same time.
+- The application runs on the same computer using a local host.
+
+## Technologies Used
+
+- Python
+- Socket Programming
+- Threading
+
+## Python Modules Used
+
+### socket
+
+The `socket` module is used to create a connection between the server and the clients.
+
+It helps the server receive and send data through the network.
+
+### threading
+
+The `threading` module is used to handle receiving messages separately while the user is typing and sending messages.
+
+### datetime
+
+The `datetime` module is used to display the time when a message is received.
+
+## Project Structure
+
+```text
+chat_application/
+│
+├──
